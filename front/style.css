@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+ 
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #00a07a;
+    height: 10vh;
+  }
+   
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {    
+    display: inline;
+    font-size: 14px;
+    margin-left: 15px;
+  }
+
+  
+
+.header img{
+    max-width: 70px;
+    max-height: 70px;
+}
+#loginButton li{
+    border: 1px, 1px, 1px, 1px;
+    border-color: #fff;
+    border-radius: 30px;
+}
+
+.namePage{
+    color: #00a07a;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.containerAnamnese{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.anamnese{
+    color: #fff;
+    background-color: #00a07a;
+    border-radius: 10px;
+    width: 720px;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titleAnamnese{
+    margin-left: 25px;
+    margin-right: 25px;
+    
+    padding-top: 15px;
+}
+.checkbox{
+    padding: 30px;
+}
+.checkbox input{
+    margin-bottom: 15px;
+}
+
+label{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+
+
